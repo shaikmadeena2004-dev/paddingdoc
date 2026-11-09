@@ -1,0 +1,97 @@
+p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    background-color:beige;
+}
+
+/* Class Selector */
+.song {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+/* ID Selector */
+#heading2 {
+    padding: 5px;
+}
+
+/* Grouping Selector */
+h1, h3, h4, h5, h6 {
+    padding: 5px;
+}
+
+/* Individual headings */
+h1 {
+    background-color: rgb(140, 121, 14);
+    color: white;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 10px;
+}
+
+/* Song spacing */
+.song {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 0;
+}
+
+.song {
+    background-color: rgb(229, 180, 90);
+    color: white;
+    font-family: monospace;
+    padding: 20px 70px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    white-space: pre-line;
+}
+h3 {
+    background-color: lavender;
+    color: black;
+}
+
+h4 {
+    background-color: yellow;
+    color: red;
+}
+
+h5 {
+    background-color: green;
+    color: white;
+}
+
+h6 {
+    background-color: black;
+    color: white;
+}
+
+h2{
+    background-color: rgb(80, 143, 233);
+    color: rgb(123, 102, 102);
+}
+p{
+    background-color: rgb(128, 189, 42);
+    color: white;
+}
+
+/* Image */
+img {
+    border: 4px solid white;
+}
+
+/* YouTube video */
+iframe {
+    border: 3px solid white;
+}
